@@ -19,6 +19,6 @@ jobs:
           cache: yarn
       - run: yarn
       - run: yarn build
-      - run: yarn release
+      - run: npm release
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
