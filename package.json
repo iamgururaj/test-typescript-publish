@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "rimraf build && tsc",
-    "release": "npm publish build"
+    "release": "npm publish"
   },
   "publishConfig": {
     "@iamgururaj:registry": "https://npm.pkg.github.com"
