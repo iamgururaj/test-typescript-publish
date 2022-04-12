@@ -1,12 +1,12 @@
 {
   "name": "@iamgururaj/test-typescript-publish",
   "version": "1.0.1",
-  "main": "build/index.js",
   "repository": "https://github.com/iamgururaj/test-typescript-publish.git",
   "author": "Gururaj <gururaj.ceg@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "rimraf build && tsc"
+    "build": "rimraf build && tsc",
+    "release": "npm publish build"
   },
   "publishConfig": {
     "@iamgururaj:registry": "https://npm.pkg.github.com"
