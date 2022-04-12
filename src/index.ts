@@ -1,0 +1,1 @@
+export {sayHello, sayGoodbye, Type2, Type1} from './hello';
